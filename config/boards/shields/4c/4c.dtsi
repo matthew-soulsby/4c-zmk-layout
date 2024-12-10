@@ -30,6 +30,7 @@ kscan0: kscan {
             , <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row E from the schematic file
             ;
 
+	wakeup-source;
     };
 };
 
